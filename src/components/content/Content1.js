@@ -67,7 +67,7 @@ export default function Content(props) {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={12} md={6} data-aos="fade-left">
+            <Grid item xs={12} md={6} data-aos="fade-up">
               <Card>
                 <CardMedia
                   image={content["image"]}

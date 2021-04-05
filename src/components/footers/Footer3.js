@@ -60,7 +60,7 @@ export default function Footer(props) {
       width: 110,
     },
     testimonial: "Made with love by RangoJango",
-    copy: "© 2021 Fluvius. All rights reserved.",
+    copy: "© 2021 Fluvius Construction. All rights reserved.",
     link1: "HOME",
     link2: "ABOUT",
     link3: "SERVICES",
@@ -128,20 +128,7 @@ export default function Footer(props) {
               {content["link4"]}
             </Link> */}
           </Box>
-          <Box mb={3}>
-            <IconButton color="inherit" aria-label="Facebook">
-              <FacebookIcon className={classes.icon} />
-            </IconButton>
-            <IconButton color="inherit" aria-label="Twitter">
-              <TwitterIcon className={classes.icon} />
-            </IconButton>
-            <IconButton color="inherit" aria-label="Instagram">
-              <InstagramIcon className={classes.icon} />
-            </IconButton>
-            <IconButton color="inherit" aria-label="LinkedIn">
-              <LinkedInIcon className={classes.icon} />
-            </IconButton>
-          </Box>
+
           <Typography
             className={classes.footerLink}
             color="textPrimary"

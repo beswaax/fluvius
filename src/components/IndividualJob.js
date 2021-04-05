@@ -13,7 +13,6 @@ import {
   CardActions,
   useMediaQuery,
 } from "@material-ui/core";
-import CheckCircleOutlineRoundedIcon from "@material-ui/icons/CheckCircleOutlineRounded";
 
 const useStyles = makeStyles((theme) => ({
   button: {},
@@ -86,10 +85,10 @@ const IndividualJob = ({ job }) => {
         container
         direction="row"
         justify="space-between"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <Grid item>
-          <Box my={3} spacing={5}>
+          <Box my={5} spacing={5}>
             <Typography className={classes.title} variant="h3">
               {content.jobPosition}
             </Typography>

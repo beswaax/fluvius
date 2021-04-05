@@ -127,7 +127,7 @@ export default function Header(props) {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={12} md={6} data-aos="fade-left">
+            <Grid item xs={12} md={6} data-aos="fade-up">
               <Image
                 src={content["image"]}
                 alt="picture of buildings in a big city"

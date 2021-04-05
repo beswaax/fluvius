@@ -47,9 +47,10 @@ export default function Contact(props) {
     "contact1-desc2": "Toronto, ON M5H 4E3",
     contact2: "Email",
     "contact2-desc": "info@fluvius.vercel.app",
-    contact3: "Social Media",
+    contact3: "Fax",
     contact4: "Phone",
     "contact4-desc": "416-555-0169",
+    "contact5-desc1": "416-555-2582",
     ...props.content,
   };
 
@@ -128,15 +129,10 @@ export default function Contact(props) {
                   <Typography variant="h6" gutterBottom={true}>
                     {content["contact3"]}
                   </Typography>
-                  <IconButton href="#" color="inherit">
-                    <FacebookIcon />
-                  </IconButton>
-                  <IconButton href="#" color="inherit">
-                    <TwitterIcon />
-                  </IconButton>
-                  <IconButton href="#" color="inherit">
-                    <LinkedInIcon />
-                  </IconButton>
+                  <Typography variant="body2" color="textSecondary">
+                    {content["contact5-desc1"]}
+                  </Typography>
+                  <br />
                 </Box>
               </Box>
               <Box display="flex">

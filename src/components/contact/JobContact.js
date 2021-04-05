@@ -115,6 +115,11 @@ const JobContact = () => {
     },
   });
 
+  const content = {
+    title: "Apply for this job",
+    subtitle: "Please add a link to your resume in the message field.",
+  };
+
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
 
   return (
@@ -122,11 +127,10 @@ const JobContact = () => {
       <Container maxWidth="md">
         <Box style={{ textAlign: matchesSM ? "left" : "center" }} pb={4}>
           <Typography variant="h4" className={classes.title}>
-            Apply for this job
+            {content.title}
           </Typography>
           <Typography variant="subtitle1" color="textPrimary">
-            After 3 days all of your offers will arrive and you will have
-            another 7 days to select your new company.
+            {content.subtitle}
           </Typography>
         </Box>
         <form onSubmit={formik.handleSubmit}>
